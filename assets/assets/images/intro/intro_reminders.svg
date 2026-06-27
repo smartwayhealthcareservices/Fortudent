@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1B2A"/>
+      <stop offset="100%" stop-color="#132236"/>
+    </linearGradient>
+    <linearGradient id="cyan2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="100%" stop-color="#00A8CC"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <circle cx="400" cy="260" r="120" fill="#00D2FF" opacity="0.12"/>
+  <path d="M400 130 C340 130,300 178,300 240 L300 300 L260 340 L340 340 L340 300 C340 248,366 210,400 210 C434 210,460 248,460 300 L460 340 L540 340 L500 300 L500 240 C500 178,460 130,400 130 Z" fill="url(#cyan2)" opacity="0.9"/>
+  <circle cx="400" cy="130" r="18" fill="#00A8CC"/>
+  <circle cx="470" cy="170" r="36" fill="#FF4757"/>
+  <text x="470" y="180" text-anchor="middle" fill="#FFFFFF" font-size="28" font-family="Arial" font-weight="bold">1</text>
+  <g transform="translate(400 430)">
+    <path d="M0 -50 C-6 -52,-16 -52,-24 -48 C-34 -42,-40 -30,-40 -18 C-40 -4,-32 10,-22 22 C-16 30,-14 40,-12 50 C-10 58,-6 64,-2 68 C2 64,6 58,8 50 C10 40,14 30,20 22 C30 10,38 -4,38 -18 C38 -30,32 -42,22 -48 C14 -52,6 -52,0 -50 Z" fill="#FFFFFF" stroke="#8BA3BC" stroke-width="2.5"/>
+    <rect x="-14" y="-30" width="10" height="38" rx="2" fill="url(#cyan2)"/>
+    <rect x="-14" y="-30" width="28" height="9" rx="2" fill="url(#cyan2)"/>
+  </g>
+  <rect x="180" y="480" width="440" height="56" rx="16" fill="#1E3A52"/>
+  <rect x="210" y="498" width="280" height="20" rx="6" fill="#00D2FF" opacity="0.5"/>
+</svg>
